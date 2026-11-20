@@ -1,0 +1,4 @@
+*.jar
+*.env
+*.txt
+/target

@@ -7,7 +7,7 @@ import hu.szit.resclient.ResConvert;
 
 public class CropRepository implements Repository<Crop>{
 
-    private String host_api;
+    private final String host_api;
 
     public CropRepository(){
         Config config = new Config();

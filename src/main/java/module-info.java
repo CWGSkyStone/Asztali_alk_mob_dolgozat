@@ -4,6 +4,6 @@ module dev.skystone {
     requires transitive javafx.graphics;
     requires hu.szit.resclient;
 
-    opens dev.skystone to javafx.fxml;
+    opens dev.skystone to javafx.fxml, com.google.gson;
     exports dev.skystone;
 }

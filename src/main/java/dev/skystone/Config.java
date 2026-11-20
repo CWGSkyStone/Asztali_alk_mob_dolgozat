@@ -16,7 +16,7 @@ public class Config extends Properties {
         try {
             tryInit();
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         }
     }
     
